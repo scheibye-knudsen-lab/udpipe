@@ -5,9 +5,9 @@
 #
 FROM ubuntu:18.04
 
-ENV MODEL_FILE_NAME test.model
-ENV MODEL_NAME test
-ENV MODEL_DESC test description
+ENV MODEL_FILE_NAME danish-ddt-ud-2.4-190531.udpipe
+ENV MODEL_NAME da
+ENV MODEL_DESC da udpipe
 
 RUN apt-get -q update && \
     apt-get -q install -y curl gcc g++ build-essential && \
