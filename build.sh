@@ -1,1 +1,1 @@
-docker build -t udpipe/server .
+docker build -t udpipe/server-da .
