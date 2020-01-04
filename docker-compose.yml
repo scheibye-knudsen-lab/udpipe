@@ -1,7 +1,7 @@
 version:            '3'
 services:
   udpipe-server-da:
-    container_name: udpipe-server-da_container
+    container_name: udpipe_container
     restart:        always
     ports:
       - 8080:8080
